@@ -10,7 +10,7 @@ html {
 }
 
 html, body {
-    height: 80vh;
+    height: auto; /* Changed from 100% to auto */
     padding: 1rem;
     box-sizing: border-box;
 }
@@ -22,15 +22,42 @@ body {
         "main"  
         "footer"; 
     grid-template-rows: auto 1fr auto;
+    background-color: #ecf0f1;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
 }
 
+header { 
+    grid-area: header;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: #ffdeda;
+    color: aliceblue;
+    outline-color: #ffdeda;
+    width: 100%;
+    height: 200px;
+    background-color: #a267be;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
-body{
-  background-color: #ecf0f1;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 16px;
-  padding-top: 330px;
-transition:(padding-top .5s ease);
+header h1 {
+    font-size: 42px;
+    color: #fff;
+    line-height: 230px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+header nav {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background-color: rgba(0,0,0,.1);
 }
 
 main {
@@ -41,21 +68,16 @@ main {
     grid-area: main;
 }
 
-header { 
-    grid-area: header;
-    font-size: xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: #ffdeda;
-    color: aliceblue;
-    outline-color: #ffdeda;
-}
-
 .portfolio {
     grid-area: portfolio;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border: solid 5px #a267be;
+    border-radius: 30px;
 }
 
 #map { 
@@ -72,14 +94,14 @@ header {
 }
 
 #contents {
-    /* the problem is here, you are setting the contents to be 50% not 100% */
-    width: 50%;
+    width: 100%;
     max-height: 100vh;
     display: grid;
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
 }
+
 button {
     align-items: center;
     background-color: #eabeff;
@@ -91,7 +113,6 @@ button {
     display: flex;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
-    /* changes the height of the button */
     height: 100px;
     justify-content: center;
     line-height: 24px;
@@ -103,14 +124,13 @@ button {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-  }
-  
-  button:after {
+}
+
+button:after {
     background-color: #111;
     border-radius: 8px;
     content: "";
     display: block;
-    /* changes the height after */
     height: 100px;
     left: 0;
     width: 100%;
@@ -119,35 +139,38 @@ button {
     transform: translate(8px, 8px);
     transition: transform .2s ease-out;
     z-index: -1;
-  }
-  
-  button:hover:after {
+}
+
+button:hover:after {
     transform: translate(0, 0);
-  }
-  
-  button:active {
+}
+
+button:active {
     background-color: #ffdeda;
     outline: 0;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     outline: 0;
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     button {
-      padding: 0 40px;
+        padding: 0 40px;
     }
-  }
-    .noButton {
-        background-color:rgba(255, 179, 222, 0.901)
 }
-    .YesButton {
-    background-color:rgba(127, 255, 212, 0.901)
+
+.noButton {
+    background-color: rgba(255, 179, 222, 0.901);
 }
-    .idkButton {
+
+.YesButton {
+    background-color: rgba(127, 255, 212, 0.901);
+}
+
+.idkButton {
     background-color: rgb(173, 168, 168);
-    }
+}
 
 #legend {
     display: flex;
@@ -157,7 +180,6 @@ button {
     border: solid 5px #a267be;
     border-radius: 30px;
 }
-
 
 .iconDiv {
     display: flex;
@@ -169,96 +191,29 @@ button {
     object-fit: cover;
 }
 
-#j {
-    font-size: 100px;
-}
-
-.portfolio {
-    grid-area: portfolio;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    border: solid 5px #a267be;
-    border-radius: 30px;
-}
-
-@import "compass/css3";
-
-@import "compass/css3";
-@import "compass/reset";
-*{
-box-sizing:(border-box);
-}
-
-header{
-  width: 100%;
-  height: 200px;
-  background-color: #a267be;
-  text-align: center;
-  position: relative;
-  position: fixed;
-  top: 0;
-  overflow: hidden;
-transition:(all .5s ease);
-}
-
-  h1{
-    font-size: 42px;
-    color: #fff;
-    line-height: 230px;
+h2 {
+    font-size: 34px;
     text-transform: uppercase;
     font-weight: 100;
-transition:(all .3s ease);
-  }
-
-  nav{
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-    line-height: 60px;
-    width: 100%;
-    background-color: rgba(0,0,0,.1);
-  }
-   
-
-
-h2{
-  font-size: 34px;
-  text-transform: uppercase;
-  font-weight: 100;
-  line-height: 2;
-  color: #2c3e50;
+    line-height: 2;
+    color: #2c3e50;
 }
 
-p{
-  margin-bottom: 2rem;
-  line-height: 2;
-  color: #7f8c8d;
-}
-.wrapper{
-  width: 800px;
-  margin: 0 auto;
-}
-section{
-  padding: 20px;
-  margin-bottom: 40px;
-  background-color: #fff;
-border-radius:(4px);
-box-shadow:(0 1px 0 rgba(0,0,0,.2));
+p {
+    margin-bottom: 2rem;
+    line-height: 2;
+    color: #7f8c8d;
 }
 
-/* Sticky Header Style */ 
-/* ---------------------------------------- */ 
-body.sticky-header{
-  padding-top: 100px;
-  header{
-    height: 60px;
-    background-color: #a267be;
-    h1{
-    scale:(0);
-    }
-  }
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(0,0,0,.2);
 }
