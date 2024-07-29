@@ -42,25 +42,25 @@ function addMarker(data) {
     let popup_message;
 
     if (jamsjImprovement == "No") {
-        popup_message = `<h2>JAMjs is not successfully capturing the whole JA experience</h2>
+        popup_message = `<h3>JAMjs is not successfully capturing the whole JA experience</h2>
+           <h3>Generation</h3><p>${gen}</p>
             <h3>Age</h3><p>${age}</p>
-            <h3>Generation</h3><p>${gen}</p>
             <h3>Elaboration</h3><p>${jamsjElaborate}</p>
             <h3>Memories in San Jose Japan Town</h3><p>${memories}</p>`;
         img = "motto";
         markerColor = "red";
     } else if (jamsjImprovement == "Yes") {
-        popup_message = `<h2>JAMjs is successfully capturing the whole JA experience</h2>
-            <h3>Age</h3><p>${age}</p>
+        popup_message = `<h3>JAMjs is successfully capturing the whole JA experience</h2>
             <h3>Generation</h3><p>${gen}</p>
+            <h3>Age</h3><p>${age}</p>
             <h3>Elaboration</h3><p>${jamsjElaborate}</p>
             <h3>Memories in San Jose Japan Town</h3><p>${memories}</p>`;
         img = "jamgood";
         markerColor = "green";
     } else if (jamsjImprovement == "I don't know") {
-        popup_message = `<h2>Survey taker who is not sure with JA representation at JAMjs</h2>
-            <h3>Age</h3><p>${age}</p>
+        popup_message = `<h3>Survey taker who is not sure with JA representation at JAMjs</h2>
             <h3>Generation</h3><p>${gen}</p>
+            <h3>Age</h3><p>${age}</p>
             <h3>Elaboration</h3><p>${jamsjElaborate}</p>
             <h3>Memories in San Jose Japan Town</h3><p>${memories}</p>`;
         img = "idk";
