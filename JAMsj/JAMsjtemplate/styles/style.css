@@ -161,15 +161,15 @@ button:hover {
 }
 
 .noButton {
-    background-color: rgba(255, 179, 222, 0.901);
+    background-color: rgba(224, 0, 0, 0.901);
 }
 
 .YesButton {
-    background-color: rgba(127, 255, 212, 0.901);
+    background-color: rgba(3, 216, 53, 0.901);
 }
 
 .idkButton {
-    background-color: rgb(173, 168, 168);
+    background-color: rgb(93, 214, 255);
 }
 
 #legend {
