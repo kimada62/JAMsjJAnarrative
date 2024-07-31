@@ -1,12 +1,12 @@
 # The Japanese Narrative
 ## Table of Contents
-[Background](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#background)
-[Main Objectives](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#main-objectives)
-[Who is being Empowered](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#who-is-being-empowered)
-[Future Uses](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#future-uses)
-[Technology](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#technology-stacks)
-[How Can it be Repurposed?](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#how-can-it-be-repurposed)
-[Features of the Website](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#features-of-the-website)
+- [Background](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#background)
+- [Main Objectives](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#main-objectives)
+- [Who is being Empowered](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#who-is-being-empowered)
+- [Future Uses](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#future-uses)
+- [Technology](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#technology-stacks)
+- [How Can it be Repurposed?](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#how-can-it-be-repurposed)
+- [Features of the Website](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#features-of-the-website)
 
 ## Background
 Many Japantowns have been subject to unfair eminent domain and target for redevelopment for financial purposes, causing only three Japantowns to be left in the U.S. This has caused many valuable history and personal stories to be completely erased with no traces. The San Jose Japantown is one of the remaining three Japantowns in the country. JAMsj is a museum in San Jose Japantown that exhibits artifacts and stories of Asian Americans, with an emphasis on the Japanese American narrative. With the museum being smaller than a lot of other Japanese museums like JANIM, voices have been raised whether they have been successful in representing the whole Japanese American experience.
