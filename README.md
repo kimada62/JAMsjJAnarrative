@@ -5,7 +5,7 @@
 [Who is being Empowered](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#who-is-being-empowered)
 [Future Uses](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#future-uses)
 [Technology](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#technology-stacks)
-How Can it be Repurposed?
+[How Can it be Repurposed?](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#how-can-it-be-repurposed)
 Features of the Website
 
 ## Background
