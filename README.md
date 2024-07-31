@@ -1,5 +1,12 @@
 # The Japanese Narrative
 ## Table of Contents
+Background()
+Main Objectives(link)
+Who is being Empowered(link)
+Future Uses(link)
+Technology
+How Can it be Repurposed?
+Features of the Website
 
 ## Background
 Many Japantowns have been subject to unfair eminent domain and target for redevelopment for financial purposes, causing only three Japantowns to be left in the U.S. This has caused many valuable history and personal stories to be completely erased with no traces. The San Jose Japantown is one of the remaining three Japantowns in the country. JAMsj is a museum in San Jose Japantown that exhibits artifacts and stories of Asian Americans, with an emphasis on the Japanese American narrative. With the museum being smaller than a lot of other Japanese museums like JANIM, voices have been raised whether they have been successful in representing the whole Japanese American experience.
