@@ -28,6 +28,10 @@ Furthermore, through creating a memory based tour as the organization requested,
 
 ## Features of the Website
 As users first visit the website, users will see a description at the top that briefly explains the main objectives of this website. On the left side of the website, it contains a pie chart that visualizes people's reponses to whether or not they think JAMsj is succesful in capturing the full Japanese American experience. This website also features colorcoded buttons with each color representing people's response to the same question as the pie chart. Users can press the button and the map will automatically center itself to the corresponding marker. Users can click on the map to find people's full response to the google form, featuring questions like generation, age, local memories, etc. The website also contains a legend for the markers, with the corresponding marker design indicating a person's reponse to whether or not they think JAMsj is succesful in capturing the full Japanese American experience. Lastly, if the user wishes to add their own experience to this website, they can simply click the link that says "Share Your Experience with JAMsj" and the website will automatically update itself to include the user's response!
-<img width="1382" alt="image" src="https://github.com/user-attachments/assets/d519549c-c723-4dad-ad6c-38d1418240a5">
+![image](https://github.com/user-attachments/assets/375fdd5c-29ac-4eb1-beb2-2b8846b8fde0)
+![image](https://github.com/user-attachments/assets/ae838eac-e985-4f5f-b9a0-dfc92ecb5d0c)
+
+
+
 
 
