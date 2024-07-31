@@ -1,6 +1,6 @@
 # The Japanese Narrative
 ## Table of Contents
-Background
+[Background](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#background)
 Main Objectives
 Who is being Empowered
 Future Uses
