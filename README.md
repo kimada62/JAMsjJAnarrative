@@ -1,7 +1,7 @@
 # The Japanese Narrative
 ## Table of Contents
 [Background](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#background)
-Main Objectives
+[Main Objectives](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#main-objectives)
 Who is being Empowered
 Future Uses
 Technology
