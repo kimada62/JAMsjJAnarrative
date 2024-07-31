@@ -4,7 +4,7 @@
 [Main Objectives](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#main-objectives)
 [Who is being Empowered](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#who-is-being-empowered)
 [Future Uses](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#future-uses)
-Technology
+[Technology](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#technology-stacks)
 How Can it be Repurposed?
 Features of the Website
 
