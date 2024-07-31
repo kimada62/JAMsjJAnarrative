@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css">
     <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 <body>
     <header>
@@ -22,14 +23,13 @@
 				who it is for, I suggest renaming it from "You can take a survey here!" to 
 				"Share your JAMsj experience" or something similar // EDIT: adressed -Kaila -->
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLSek2yN6sumOSDN0J5-XwMY1I3lXwR3eNK9FCVGsFoktTGmZzQ/viewform?usp=sf_link">Share your experiences with JAMjs</a>
-
     </header>
     <!-- Albert: I checked and this section is not referenced or used anywhere, 
 	 so it seems unnecessary. I commented it out. // EDIT: adressed -Kaila -->
             
      <main>
         <div class="portfolio">
-
+			
 			<!-- NOT ADRESSED: Albert: I put the legend here to give you an example of 
 			 how you can think about centering the focus of your community's 
 			 voices front and center, a graph or chart can be placed here -->
@@ -49,7 +49,12 @@
 				</div>
 			</div>
 			<p>From the generational voices of local San Jose Japanese American Museum Goers</p>
-            <div id="contents"></div>
+			<div class="chart-container">
+				<canvas id="myChart"></canvas>
+			</div>
+            <div id="contents">
+				
+			</div>
         </div>
         <div id="map"></div>
     </main>

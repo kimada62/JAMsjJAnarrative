@@ -40,7 +40,7 @@ function addMarker(data) {
     let img;
     let markerColor;
     let popup_message;
-
+    countResponses(jamsjImprovement)
     if (jamsjImprovement == "No") {
         popup_message = `<h3>JAMjs is not successfully capturing the whole JA experience</h2>
            <h3>Generation</h3><p>${gen}</p>
@@ -133,8 +133,88 @@ function processData(results) {
     results.forEach(feature => {
         addMarker(feature);
     });
-
+    reformatSummarizeForPieChart()
     };
  
+let summarizeData = [{"yesCount":0},{"noCount":0},{"idkCount":0}];
 
+/// {
+///"yesCount":1, "noCount":1, "idkCount":1 
+///}
+
+
+function countResponses(response) {
+    if (response == "Yes"){
+        summarizeData[0].yesCount += 1;
+    }
+    else if (response == "No"){
+        summarizeData[1].noCount += 1;
+    }
+    else if (response == "I don't know"){
+        summarizeData[2].idkCount +=1;
+    }
+    console.log(summarizeData);
+}
+
+let pieChartXValues = [];
+let pieChartYValues = [];
+let barColors = ['green', 'red','gray'];
+
+function reformatSummarizeForPieChart(){
+    summarizeData.forEach(response => {
+        pieChartXValues.push(Object.keys(response)[0]);
+        pieChartYValues.push(Object.values(response)[0]);
+    })
+    console.log("Done with data, so now summarizing data for pie chart")
+    console.log(pieChartXValues);
+    console.log(pieChartYValues);
+}    
+
+new Chart("myChart", {
+    type: "pie",
+    data: {
+      labels: pieChartXValues,
+      datasets: [{
+        backgroundColor: barColors,
+        data: pieChartYValues
+      }]
+    },
+     options: {
+          responsive: true,
+          plugins: {
+              legend: {
+                  position: 'top',
+              },
+              tooltip: {
+                  callbacks: {
+                      label: function(context) {
+                          let label = context.label || '';
+                          if (label) {
+                              label += ': ';
+                          }
+                          if (context.parsed !== null) {
+                              label += context.parsed;
+                          }
+                          return label;
+                      }
+                  }
+              }
+          }
+      }
     
+  });
+document.getElementById('myChart').addEventListener('click', function(event) {
+    // Get the first element at the event position
+    // let activePoint = myChart.getElementAtEvent(event)[0];
+    console.log('hello i clicked here')
+    // Check if there is an active point
+    // if (activePoint) {
+        // Extract the label and value from the chart data
+        // let label = myChart.data.labels[activePoint.index];
+        // let value = myChart.data.datasets[activePoint.datasetIndex].data[activePoint.index];
+        
+        // Display the data based on the clicked segment
+        // console.log(`Clicked on: ${label} - ${value}`);
+        // You can add more logic here to display the data in a specific way
+    
+});

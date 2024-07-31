@@ -181,6 +181,7 @@ button:hover {
     border-radius: 30px;
 }
 
+
 .iconDiv {
     display: flex;
 }
@@ -218,3 +219,12 @@ section {
     box-shadow: 0 1px 0 rgba(0,0,0,.2);
 
 } 
+
+.chart-container{
+    width: 60%;
+}
+
+#mychart{
+    max-width:600px;
+    position:relative; height:30vh;
+}
