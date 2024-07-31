@@ -1,9 +1,9 @@
 # The Japanese Narrative
 ## Table of Contents
-Background()
-Main Objectives(link)
-Who is being Empowered(link)
-Future Uses(link)
+Background
+Main Objectives
+Who is being Empowered
+Future Uses
 Technology
 How Can it be Repurposed?
 Features of the Website
