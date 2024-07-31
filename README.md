@@ -2,7 +2,7 @@
 ## Table of Contents
 [Background](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#background)
 [Main Objectives](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#main-objectives)
-Who is being Empowered
+[Who is being Empowered](https://github.com/kimada62/JAMsjJAnarrative/blob/main/README.md#who-is-being-empowered)
 Future Uses
 Technology
 How Can it be Repurposed?
